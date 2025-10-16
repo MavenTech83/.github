@@ -1,181 +1,143 @@
-```
-<!-- HERO HEADER -->
-<div align="center">
-  <img src="https://i.imgur.com/w8tTOuT.png" width="45%" alt="Logo Maven Tech"/>
-  <h1 align="center" style="font-size:42px; margin-top:15px;">☕ MAVEN TECH — BACKEND</h1>
-  <h3 align="center" style="font-weight:400; color:#6c757d;">Experts who code with purpose</h3>
-  <br>
-  <img src="https://img.shields.io/badge/Java-17-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Spring_Boot-3.x-6DB33F?style=for-the-badge&logo=springboot&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Maven-Build_Automation-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white"/>
-  <img src="https://img.shields.io/badge/MySQL-Relational_DB-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Swagger-API_Docs-85EA2D?style=for-the-badge&logo=swagger&logoColor=black"/>
+███╗   ███╗ █████╗ ██╗   ██╗███████╗███╗   ██╗    ████████╗███████╗ ██████╗██╗  ██╗
+████╗ ████║██╔══██╗██║   ██║██╔════╝████╗  ██║    ╚══██╔══╝██╔════╝██╔════╝██║  ██║
+██╔████╔██║███████║██║   ██║█████╗  ██╔██╗ ██║       ██║   █████╗  ██║     ███████║
+██║╚██╔╝██║██╔══██║╚██╗ ██╔╝██╔══╝  ██║╚██╗██║       ██║   ██╔══╝  ██║     ██╔══██║
+██║ ╚═╝ ██║██║  ██║ ╚████╔╝ ███████╗██║ ╚████║       ██║   ███████╗╚██████╗██║  ██║
+╚═╝     ╚═╝╚═╝  ╚═╝  ╚═══╝  ╚══════╝╚═╝  ╚═══╝       ╚═╝   ╚══════╝ ╚═════╝╚═╝  ╚═╝
+
+⚙️ MAVEN TECH BACKEND
+
+“Experts who code with purpose.”
+
+Desenvolvido por mentes que acreditam que tecnologia é poder —
+e que propósito é o que o transforma em revolução.
+
 </div>
-```
+
+🧬 Sobre o Projeto
+
+O Maven Tech Backend é mais que uma API —
+é um laboratório de ideias, onde o código encontra propósito e se transforma em ferramenta de impacto.
+
+Feito em Java + Spring Boot, o projeto simboliza a essência de quem domina o ofício: organização, automação e inteligência.
+Aqui, cada classe, endpoint e requisição expressam a filosofia Maven:
+
+“Entender profundamente. Construir com propósito. Impactar com tecnologia.”
+
+<div align="center"> <img src="https://i.imgur.com/w8tTOuT.png" width="50%"/> </div>
 
 ---
 
-```
-<!-- INTRO / MANIFESTO -->
-<div align="center">
-  <h2>🪐 “Nós não apenas escrevemos código — nós projetamos futuros.”</h2>
-  <p>
-    O Maven Tech Backend nasceu para provar que <strong>tecnologia com propósito é revolução</strong>.  
-    Desenvolvido no Bootcamp Java Full Stack da <a href="https://brazil.generation.org/" target="_blank">Generation Brasil</a>,  
-    este projeto representa a união entre técnica, colaboração e impacto social.  
-  </p>
-  <blockquote>
-    <em>“Maven” vem do iídiche e significa <strong>‘aquela que entende profundamente’</strong>.<br>
-    Aqui, somos pessoas que entendem, constroem e dominam o código com propósito.</em>
-  </blockquote>
-</div>
-```
+🛰️ Estrutura da API
+
+“Quem entende Maven, entende o universo.”
+
+A API foi construída com base em boas práticas de arquitetura REST,
+mantendo separação de responsabilidades e um design orientado a objetos limpo e escalável.
+
+🧠 Features principais:
+
+CRUD completo de entidades essenciais
+
+Autenticação e segurança de usuários
+
+Integração com banco relacional via Spring Data JPA
+
+Tratamento de exceções e respostas padronizadas
+
+Deploy automatizado e dependências gerenciadas por Maven
 
 ---
 
-```
-<!-- SECTION: PROJECT OVERVIEW -->
-<h2 align="center">⚙️ SOBRE O PROJETO</h2>
+🔩 Stack Tecnológica
 
-<p align="center">
-O backend do <strong>Maven Tech</strong> é uma API RESTful construída em Java com Spring Boot,  
-estruturada para ser <strong>modular, escalável e automatizada</strong> via Maven.  
-Ela simboliza a essência da engenharia bem feita — e o poder de quem entende profundamente o que faz.
-</p>
-
-<br>
-
-<div align="center">
-  <img src="https://i.imgur.com/TZu1z6a.png" alt="Banner Maven Tech" width="75%">
-</div>
-```
-
----
-
-```
-<!-- SECTION: FEATURES -->
-<h2 align="center">🧠 PRINCIPAIS FUNCIONALIDADES</h2>
-
-<div align="center">
-<table>
-  <tr><td>✅ CRUD completo de entidades principais</td></tr>
-  <tr><td>🔐 Autenticação e segurança de usuários</td></tr>
-  <tr><td>🧩 Integração com MySQL via Spring Data JPA</td></tr>
-  <tr><td>🧱 Validação e tratamento de exceções</td></tr>
-  <tr><td>🚀 Deploy automatizado via Maven</td></tr>
-</table>
-</div>
-```
-
----
-
-```
-<!-- SECTION: TECH STACK -->
-<h2 align="center">🛠️ STACK TECNOLÓGICA</h2>
+| Tecnologia                 | Função                      |
+| -------------------------- | --------------------------- |
+| ☕ **Java 17**              | Linguagem principal         |
+| 🌱 **Spring Boot 3.x**     | Framework backend           |
+| 🧰 **Maven**               | Build & Dependency Manager  |
+| 🗄️ **MySQL**              | Banco de dados relacional   |
+| 🔗 **Spring Data JPA**     | Persistência e ORM          |
+| 💬 **Swagger / SpringDoc** | Documentação da API         |
+| 🧭 **Git + GitHub**        | Versionamento e colaboração |
 
 <div align="center">
 
-| Tecnologia | Descrição |
-|-------------|------------|
-| ☕ **Java 17** | Linguagem principal |
-| 🌱 **Spring Boot 3.x** | Framework backend |
-| 🔧 **Maven** | Build e gerenciamento de dependências |
-| 🗄️ **MySQL** | Banco de dados relacional |
-| 💬 **Swagger (SpringDoc)** | Documentação da API |
-| 🧭 **Git + GitHub** | Versionamento e colaboração |
-
-</div>
-```
-
----
-
-```
-<!-- SECTION: DIAGRAMS -->
-<h2 align="center">🧬 ESTRUTURA DO SISTEMA</h2>
-
-<p align="center">
-O projeto segue o modelo MVC (Model-View-Controller) com camadas bem definidas de responsabilidade e uso extensivo de injeção de dependência.
-</p>
-
-<div align="center">
-  <img src="https://i.imgur.com/mudar.png" width="60%" alt="Diagrama de Classes Maven Tech"/>
-  <p><em>Diagrama de Classes</em></p>
 </div>
 
-<div align="center">
-  <img src="https://i.imgur.com/imagem.png" width="70%" alt="DER Maven Tech"/>
-  <p><em>Diagrama Entidade-Relacionamento (DER)</em></p>
-</div>
-```
+---
+
+🧩 Diagrama de Classes
+<div align="center"> <img src="https://i.imgur.com/mudar.png" width="65%" /> </div>
 
 ---
 
-
-```
-<!-- SECTION: SETUP -->
-<h2 align="center">🚀 EXECUÇÃO DO PROJETO</h2>
-
-```bash
-# 1️⃣ Clone o repositório
-git clone https://github.com/seuusuario/maven-tech-backend.git
-
-# 2️⃣ Acesse o diretório
-cd maven-tech-backend
-
-# 3️⃣ Instale dependências
-mvn clean install
-
-# 4️⃣ Configure o banco de dados no application.properties
-spring.datasource.url=jdbc:mysql://localhost:3306/maven_tech
-spring.datasource.username=root
-spring.datasource.password=suasenha
-
-# 5️⃣ Execute o projeto
-mvn spring-boot:run
-```
+🕸️ DER — Diagrama Entidade Relacionamento
+<div align="center"> <img src="https://i.imgur.com/imagem.png" width="70%" /> </div>
 
 ---
 
-Endpoints disponíveis:
+🧠 Filosofia Maven Tech
 
-API Base: http://localhost:8080
+“O código é apenas a superfície.
+O que move a Maven é o que está por baixo — a intenção, a ética, o impacto.”
 
-Swagger UI: http://localhost:8080/swagger-ui.html
-
----
-
-```
-<!-- SECTION: BRAND PHILOSOPHY --> <h2 align="center">💜 FILOSOFIA MAVEN TECH</h2> <div align="center"> <p><strong>Maven Tech</strong> é mais que um código — é uma ideia.</p>
-<p>Nasceu da crença de que <em>tecnologia é a ponte entre o conhecimento e o impacto social</em>.</p>
-<p>Nosso propósito é inspirar e capacitar mulheres a dominarem o universo da tecnologia com empatia, inovação e propósito.</p> </div> <div align="center"
+Cada linha aqui foi escrita sob três princípios:
 
 Conhecimento que transforma.
 Colaboração acima da competição.
 Empoderamento através da aprendizagem.
 
+Esses valores guiam tanto o código quanto a cultura do time.
+Ser Maven é mais que ser dev — é ser curiosa, criativa e consciente do poder que o conhecimento carrega.
+
+---
+
+🚀 Configuração e Execução
+
+# Clone o repositório
+git clone https://github.com/seuusuario/maven-tech-backend.git
+
+# Acesse o diretório
+cd maven-tech-backend
+
+# Instale dependências
+mvn clean install
+
+# Configure o banco no application.properties
+spring.datasource.url=jdbc:mysql://localhost:3306/maven_tech
+spring.datasource.username=root
+spring.datasource.password=suasenha
+
+# Rode a aplicação
+mvn spring-boot:run
+
+🌐 Acesse: http://localhost:8080
+📖 Documentação Swagger: http://localhost:8080/swagger-ui.html
+
+---
+
+🪐 Manifesto
+
+Nós não apenas codamos.
+Nós projetamos futuros.
+Nós escrevemos em Java o que o mundo ainda não sonhou.
+
+Maven Tech é um movimento — uma comunidade de especialistas que criam tecnologia com propósito.
+E este backend é a espinha dorsal desse movimento: sólido, elegante e humano.
+
+---
+
+```
+<div align="center">
+ 
+💜 MAVEN TECH — Experts who code with purpose. 💜
+
+Criado no Bootcamp Java Full Stack da Generation Brasil
+
+---
+
+✨ “Maven não é só um build tool. É um estado de espírito.”
 </div>
-
 ```
-
----
-
-```
-<!-- SECTION: TEAM / ATTRIBUTION --> <h2 align="center">👩‍💻 EQUIPE & CRIAÇÃO</h2> <div align="center"> <p> Projeto desenvolvido no Bootcamp
-<strong>Java Full Stack</strong> da <a href="https://brazil.generation.org/">Generation Brasil</a>.
- <br>Feito com 💜 por desenvolvedoras que acreditam no poder do conhecimento. </p> </div>
-
----
-
-<!-- FOOTER / QUOTE --> <div align="center" style="margin-top: 40px;"> <img src="https://i.imgur.com/RfrK00x.png" width="60%" alt="Decorative Divider"/> <h3>✨
-“Maven não é só uma ferramenta. É um estado de espírito.” ✨</h3> <p> <em>Experts who code with purpose.</em> </p> </div> ```
-
-```
-
-
-
-
-
-
-
-
 
